@@ -31,7 +31,7 @@ from transformers import HfArgumentParser
 from pynvml import *
 
 
-proj_dir = os.path.expanduser('~/polygon/chatbot')
+proj_dir = os.path.expanduser('/content/gg')
 
 
 def print_gpu_utilization():
